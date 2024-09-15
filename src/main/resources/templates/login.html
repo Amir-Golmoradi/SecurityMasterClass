@@ -22,10 +22,14 @@
 <form method="post" th:action="@{/login}" class="form">
   <div>
     <div style="padding: 4px;margin: 4px">
-      username:<input type="text" name="username"/>
+      username:<label>
+      <input type="text" name="username"/>
+    </label>
     </div>
     <div style="padding: 4px;margin: 4px">
-      password:<input type="password" name="password"/>
+      password:<label>
+      <input type="password" name="password"/>
+    </label>
     </div>
     <div style="padding: 4px;margin: 4px">
       <input type="submit"/>
